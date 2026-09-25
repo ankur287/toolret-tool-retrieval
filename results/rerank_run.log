@@ -45,5 +45,5 @@ device=mps doc_field=compact queries=200
 ceiling = stage-1 recall at full depth; the reranker cannot exceed it.
 used    = fraction of available headroom the reranker actually captured.
 
-per-query records -> /Users/ankur/Desktop/TDS_Articles/ToolRet/results/rerank_code_BAAI-bge-large-en-v1.5_BAAI-bge-reranker-v2-m3_d50_compact.jsonl
-summary           -> /Users/ankur/Desktop/TDS_Articles/ToolRet/results/rerank_code_BAAI-bge-large-en-v1.5_BAAI-bge-reranker-v2-m3_d50_compact_summary.json
+per-query records -> results/rerank_code_BAAI-bge-large-en-v1.5_BAAI-bge-reranker-v2-m3_d50_compact.jsonl
+summary           -> results/rerank_code_BAAI-bge-large-en-v1.5_BAAI-bge-reranker-v2-m3_d50_compact_summary.json

@@ -39,5 +39,5 @@ prompt style: instruct
 latency is per query: encode the query, then scan the slice.
 index build (all 3,794 tools) is a one-time 202.7s, amortised over every query.
 
-per-query records -> /Users/ankur/Desktop/TDS_Articles/ToolRet/results/biencoder_code_Qwen-Qwen3-Embedding-8B_compact.jsonl
-summary           -> /Users/ankur/Desktop/TDS_Articles/ToolRet/results/biencoder_code_Qwen-Qwen3-Embedding-8B_compact_summary.json
+per-query records -> results/biencoder_code_Qwen-Qwen3-Embedding-8B_compact.jsonl
+summary           -> results/biencoder_code_Qwen-Qwen3-Embedding-8B_compact_summary.json
