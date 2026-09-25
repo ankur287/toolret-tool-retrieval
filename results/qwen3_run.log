@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+bi-encoder | model=Qwen/Qwen3-Embedding-8B device=mps doc_field=compact queries=200
+prompt style: instruct
+  query -> 'Instruct: Given a task that requires calling a tool, retrieve the documentation of the tool that can accomplish it.\nQuery: <QUERY>'
+  doc   -> '<DOC>'
+
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  50%|█████     | 2/4 [22:33<22:33, 676.87s/it]Fetching 4 files:  75%|███████▌  | 3/4 [23:05<06:47, 407.94s/it]Fetching 4 files: 100%|██████████| 4/4 [23:42<00:00, 269.66s/it]Fetching 4 files: 100%|██████████| 4/4 [23:42<00:00, 355.63s/it]
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<04:37,  1.43it/s]Loading weights:  37%|███▋      | 146/398 [00:00<00:01, 208.77it/s]Loading weights:  47%|████▋     | 187/398 [00:01<00:01, 154.09it/s]Loading weights:  54%|█████▍    | 214/398 [00:01<00:01, 120.11it/s]Loading weights:  59%|█████▊    | 233/398 [00:01<00:01, 125.77it/s]Loading weights:  63%|██████▎   | 251/398 [00:02<00:01, 98.41it/s] Loading weights:  67%|██████▋   | 265/398 [00:02<00:01, 68.68it/s]Loading weights:  69%|██████▉   | 275/398 [00:03<00:03, 39.12it/s]Loading weights:  71%|███████   | 283/398 [00:03<00:02, 39.12it/s]Loading weights:  73%|███████▎  | 290/398 [00:03<00:02, 38.05it/s]Loading weights:  75%|███████▌  | 300/398 [00:04<00:02, 39.86it/s]Loading weights:  78%|███████▊  | 311/398 [00:04<00:02, 40.40it/s]Loading weights:  81%|████████  | 322/398 [00:04<00:01, 41.61it/s]Loading weights:  84%|████████▎ | 333/398 [00:04<00:01, 41.06it/s]Loading weights:  86%|████████▋ | 344/398 [00:05<00:01, 39.94it/s]Loading weights:  89%|████████▉ | 355/398 [00:05<00:01, 40.13it/s]Loading weights:  92%|█████████▏| 366/398 [00:05<00:00, 42.77it/s]Loading weights:  95%|█████████▍| 377/398 [00:06<00:00, 40.49it/s]Loading weights:  97%|█████████▋| 388/398 [00:06<00:00, 41.05it/s]Loading weights: 100%|██████████| 398/398 [00:06<00:00, 62.67it/s]
+  model loaded in 1436.9s (dtype=float16)
+Batches:   0%|          | 0/60 [00:00<?, ?it/s]Batches:   2%|▏         | 1/60 [00:04<04:09,  4.23s/it]Batches:   3%|▎         | 2/60 [00:08<03:56,  4.09s/it]Batches:   5%|▌         | 3/60 [00:11<03:30,  3.69s/it]Batches:   7%|▋         | 4/60 [00:14<03:13,  3.45s/it]Batches:   8%|▊         | 5/60 [00:17<03:03,  3.34s/it]Batches:  10%|█         | 6/60 [00:20<02:52,  3.20s/it]Batches:  12%|█▏        | 7/60 [00:23<02:44,  3.11s/it]Batches:  13%|█▎        | 8/60 [00:26<02:37,  3.03s/it]Batches:  15%|█▌        | 9/60 [00:29<02:30,  2.95s/it]Batches:  17%|█▋        | 10/60 [00:32<02:37,  3.15s/it]Batches:  18%|█▊        | 11/60 [00:36<02:40,  3.28s/it]Batches:  20%|██        | 12/60 [00:39<02:30,  3.14s/it]Batches:  22%|██▏       | 13/60 [00:42<02:34,  3.29s/it]Batches:  23%|██▎       | 14/60 [00:46<02:37,  3.42s/it]Batches:  25%|██▌       | 15/60 [00:49<02:29,  3.33s/it]Batches:  27%|██▋       | 16/60 [00:53<02:27,  3.36s/it]Batches:  28%|██▊       | 17/60 [00:56<02:19,  3.25s/it]Batches:  30%|███       | 18/60 [00:59<02:15,  3.22s/it]Batches:  32%|███▏      | 19/60 [01:02<02:10,  3.18s/it]Batches:  33%|███▎      | 20/60 [01:06<02:23,  3.60s/it]Batches:  35%|███▌      | 21/60 [01:09<02:11,  3.37s/it]Batches:  37%|███▋      | 22/60 [01:13<02:07,  3.35s/it]Batches:  38%|███▊      | 23/60 [01:15<01:55,  3.12s/it]Batches:  40%|████      | 24/60 [01:18<01:45,  2.94s/it]Batches:  42%|████▏     | 25/60 [01:20<01:40,  2.88s/it]Batches:  43%|████▎     | 26/60 [01:23<01:35,  2.79s/it]Batches:  45%|████▌     | 27/60 [01:26<01:38,  2.98s/it]Batches:  47%|████▋     | 28/60 [01:29<01:31,  2.85s/it]Batches:  48%|████▊     | 29/60 [01:32<01:29,  2.87s/it]Batches:  50%|█████     | 30/60 [01:35<01:25,  2.84s/it]Batches:  52%|█████▏    | 31/60 [01:37<01:21,  2.81s/it]Batches:  53%|█████▎    | 32/60 [01:40<01:16,  2.73s/it]Batches:  55%|█████▌    | 33/60 [01:42<01:09,  2.56s/it]Batches:  57%|█████▋    | 34/60 [01:45<01:05,  2.53s/it]Batches:  58%|█████▊    | 35/60 [01:47<01:03,  2.52s/it]Batches:  60%|██████    | 36/60 [01:49<00:58,  2.44s/it]Batches:  62%|██████▏   | 37/60 [01:55<01:16,  3.33s/it]Batches:  63%|██████▎   | 38/60 [02:00<01:24,  3.84s/it]Batches:  65%|██████▌   | 39/60 [02:06<01:34,  4.51s/it]Batches:  67%|██████▋   | 40/60 [02:11<01:35,  4.77s/it]Batches:  68%|██████▊   | 41/60 [02:16<01:28,  4.68s/it]Batches:  70%|███████   | 42/60 [02:21<01:26,  4.81s/it]Batches:  72%|███████▏  | 43/60 [02:25<01:19,  4.66s/it]Batches:  73%|███████▎  | 44/60 [02:30<01:13,  4.62s/it]Batches:  75%|███████▌  | 45/60 [02:34<01:06,  4.46s/it]Batches:  77%|███████▋  | 46/60 [02:39<01:07,  4.80s/it]Batches:  78%|███████▊  | 47/60 [02:44<01:02,  4.77s/it]Batches:  80%|████████  | 48/60 [02:48<00:54,  4.51s/it]Batches:  82%|████████▏ | 49/60 [02:52<00:47,  4.33s/it]Batches:  83%|████████▎ | 50/60 [02:55<00:40,  4.02s/it]Batches:  85%|████████▌ | 51/60 [02:59<00:35,  3.90s/it]Batches:  87%|████████▋ | 52/60 [03:02<00:29,  3.69s/it]Batches:  88%|████████▊ | 53/60 [03:06<00:25,  3.71s/it]Batches:  90%|█████████ | 54/60 [03:09<00:20,  3.48s/it]Batches:  92%|█████████▏| 55/60 [03:11<00:16,  3.22s/it]Batches:  93%|█████████▎| 56/60 [03:14<00:12,  3.08s/it]Batches:  95%|█████████▌| 57/60 [03:17<00:09,  3.13s/it]Batches:  97%|█████████▋| 58/60 [03:20<00:05,  2.90s/it]Batches:  98%|█████████▊| 59/60 [03:22<00:02,  2.66s/it]Batches: 100%|██████████| 60/60 [03:22<00:00,  2.04s/it]Batches: 100%|██████████| 60/60 [03:22<00:00,  3.38s/it]
+  corpus: 3,794 tools x 4096 dims (encoded in 202.7s)
+  index build rate: 19 tools/s
+  200 queries encoded in 41.3s (mean 206.5ms each)
+
+  slice 1,000 (814 distractors)
+    nDCG@10=0.6358  Recall@10=0.7725  Complete@10=0.7350  p50=192.21ms
+
+  slice 1,500 (1,314 distractors)
+    nDCG@10=0.5895  Recall@10=0.7425  Complete@10=0.7000  p50=192.31ms
+
+  slice 2,000 (1,814 distractors)
+    nDCG@10=0.5643  Recall@10=0.7300  Complete@10=0.6900  p50=192.4ms
+
+  slice 2,500 (2,314 distractors)
+    nDCG@10=0.5338  Recall@10=0.6833  Complete@10=0.6450  p50=192.47ms
+
+  slice 3,794 (3,608 distractors)
+    nDCG@10=0.4844  Recall@10=0.6308  Complete@10=0.6000  p50=192.72ms
+
+======================================================================================
+  slice   nDCG@10  Recall@10  Compl@10    p50 ms    p90 ms    encode    search
+--------------------------------------------------------------------------------------
+  1,000    0.6358     0.7725    0.7350    192.21    272.01  206.54ms   0.124ms
+  1,500    0.5895     0.7425    0.7000    192.31    272.12  206.54ms   0.214ms
+  2,000    0.5643     0.7300    0.6900    192.40    272.20  206.54ms   0.306ms
+  2,500    0.5338     0.6833    0.6450    192.47    272.28  206.54ms   0.365ms
+  3,794    0.4844     0.6308    0.6000    192.72    272.55  206.54ms   0.645ms
+======================================================================================
+latency is per query: encode the query, then scan the slice.
+index build (all 3,794 tools) is a one-time 202.7s, amortised over every query.
+
+per-query records -> /Users/ankur/Desktop/TDS_Articles/ToolRet/results/biencoder_code_Qwen-Qwen3-Embedding-8B_compact.jsonl
+summary           -> /Users/ankur/Desktop/TDS_Articles/ToolRet/results/biencoder_code_Qwen-Qwen3-Embedding-8B_compact_summary.json

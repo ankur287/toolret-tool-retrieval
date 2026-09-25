@@ -1,0 +1,67 @@
+{
+  "category": "code",
+  "seed": 13,
+  "n_queries": 200,
+  "n_gt_tools": 186,
+  "corpus_size": 3794,
+  "context_limit": 131072,
+  "prompt_overhead_tokens": 600,
+  "chars_per_token": 3.79,
+  "slices": [
+    {
+      "size": 1000,
+      "n_gt": 186,
+      "n_distractors": 814,
+      "gt_density": 0.186,
+      "compact_tokens": 52828,
+      "compact_fits_context": true,
+      "full_tokens": 192632,
+      "full_fits_context": false,
+      "path": "slices/slice_1000.json"
+    },
+    {
+      "size": 1500,
+      "n_gt": 186,
+      "n_distractors": 1314,
+      "gt_density": 0.124,
+      "compact_tokens": 78573,
+      "compact_fits_context": true,
+      "full_tokens": 283514,
+      "full_fits_context": false,
+      "path": "slices/slice_1500.json"
+    },
+    {
+      "size": 2000,
+      "n_gt": 186,
+      "n_distractors": 1814,
+      "gt_density": 0.093,
+      "compact_tokens": 104544,
+      "compact_fits_context": true,
+      "full_tokens": 377585,
+      "full_fits_context": false,
+      "path": "slices/slice_2000.json"
+    },
+    {
+      "size": 2500,
+      "n_gt": 186,
+      "n_distractors": 2314,
+      "gt_density": 0.0744,
+      "compact_tokens": 129989,
+      "compact_fits_context": true,
+      "full_tokens": 468278,
+      "full_fits_context": false,
+      "path": "slices/slice_2500.json"
+    },
+    {
+      "size": 3794,
+      "n_gt": 186,
+      "n_distractors": 3608,
+      "gt_density": 0.049,
+      "compact_tokens": 197750,
+      "compact_fits_context": false,
+      "full_tokens": 714283,
+      "full_fits_context": false,
+      "path": "slices/slice_3794.json"
+    }
+  ]
+}

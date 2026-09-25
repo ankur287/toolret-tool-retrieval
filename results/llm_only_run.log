@@ -1,0 +1,6 @@
+LLM-only | model=gemma3:12b category=code queries=200 slices=[1000, 1500, 2000, 2500, 3794]
+instruction field: included
+
+  slice 1,000 (814 distractors, est. 52,828 tokens)
+    num_ctx sized to 70,881 (model max 131,072)
+    prompt = 53,160 tokens (num_ctx 70,881, 41% of the model window), first call 225.4s

@@ -1,0 +1,77 @@
+{
+  "condition": "bm25",
+  "category": "code",
+  "doc_field": "full",
+  "k1": 1.2,
+  "b": 0.75,
+  "n_queries": 200,
+  "top_k": 10,
+  "use_instruction": true,
+  "results": [
+    {
+      "slice": 1000,
+      "status": "ok",
+      "n_distractors": 814,
+      "ndcg@10": 0.6552,
+      "recall@10": 0.79,
+      "completeness@10": 0.75,
+      "n_queries": 200,
+      "n_answered": 200,
+      "index_build_ms": 8.3,
+      "latency_p50_ms": 0.223,
+      "latency_p90_ms": 0.342
+    },
+    {
+      "slice": 1500,
+      "status": "ok",
+      "n_distractors": 1314,
+      "ndcg@10": 0.6179,
+      "recall@10": 0.7517,
+      "completeness@10": 0.715,
+      "n_queries": 200,
+      "n_answered": 200,
+      "index_build_ms": 9.5,
+      "latency_p50_ms": 0.342,
+      "latency_p90_ms": 0.522
+    },
+    {
+      "slice": 2000,
+      "status": "ok",
+      "n_distractors": 1814,
+      "ndcg@10": 0.5906,
+      "recall@10": 0.7308,
+      "completeness@10": 0.7,
+      "n_queries": 200,
+      "n_answered": 200,
+      "index_build_ms": 13.8,
+      "latency_p50_ms": 0.485,
+      "latency_p90_ms": 0.801
+    },
+    {
+      "slice": 2500,
+      "status": "ok",
+      "n_distractors": 2314,
+      "ndcg@10": 0.5698,
+      "recall@10": 0.7083,
+      "completeness@10": 0.675,
+      "n_queries": 200,
+      "n_answered": 200,
+      "index_build_ms": 17.9,
+      "latency_p50_ms": 0.612,
+      "latency_p90_ms": 0.956
+    },
+    {
+      "slice": 3794,
+      "status": "ok",
+      "n_distractors": 3608,
+      "ndcg@10": 0.5327,
+      "recall@10": 0.675,
+      "completeness@10": 0.65,
+      "n_queries": 200,
+      "n_answered": 200,
+      "index_build_ms": 26.8,
+      "latency_p50_ms": 1.065,
+      "latency_p90_ms": 1.981
+    }
+  ]
+}

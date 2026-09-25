@@ -1,0 +1,18 @@
+# Article drafts and images stay local
+article/
+
+# Large or re-downloadable data (run scripts_download.py)
+data/raw/
+
+# Cached embeddings, regenerated on the next run
+results/embeddings/
+
+# Trained models
+models/
+
+# Environment and caches
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+*.bak
